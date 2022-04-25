@@ -1,0 +1,158 @@
+body {
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  border-radius: 50px;
+}
+
+.App {
+  font-family: "Raleway", sans-serif;
+  background-color: lightgray;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 15em;
+}
+.container {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  max-width: 700px;
+  max-height: 500px;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+}
+
+.name {
+  color: black;
+  font-weight: semi-bold 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.searchName {
+  font-family: "Raleway", sans-serif;
+  align-items: left;
+  justify-content: left;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.searchName input {
+  border: none;
+  background: white;
+  height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+img {
+  align-items: left;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: static;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.info {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchName input:focus {
+  outline: none;
+}
+
+.searchTag {
+  padding-bottom: 10px;
+  align-items: left;
+  justify-content: left;
+  height: 30px;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.searchTag input {
+  border: none;
+  background: white;
+  height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+.searchTag input:focus {
+  outline: none;
+}
+
+.testItem {
+  display: flex;
+  margin-left: max(162px);
+}
+
+.tagAdder {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 160px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  background: white;
+  width: fit-content;
+}
+
+.tagAdder input {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  background: white;
+  outline: none;
+}
+
+.tagAdder input:focus {
+  outline: none;
+}
+
+.tags {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px;
+  width: fit-content;
+  background-color: lightgrey;
+  border-radius: 4px;
+  align-content: center;
+}
+
+.tagContainer {
+  margin-left: 160px;
+}
+
+.button {
+  color: darkgray;
+  font-size: 50px;
+  border: none;
+  cursor: pointer;
+  justify-content: space-between;
+  float: right;
+}
+
+.button input:focus {
+  color: darkgray;
+  font-size: 50px;
+  border: none;
+  cursor: pointer;
+}
